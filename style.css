@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:96vh;
+
+}
+.card{
+    width: 24rem;
+    height: 39rem;
+  background-color:#1f1f1f;
+  border-radius: 20px;
+  padding: 0 2rem;
+}
+.profileImage{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-image: url(/images/african-american-technician-check-maintenance-solar-panels-black-woman-engineer-solar-station.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  margin:2rem auto;
+
+}
+.card h2{
+    color: white;
+text-align: center;
+    font-size: 36px;
+}
+.card h6{
+    font-size: 18px;
+    text-align: center;
+    color: yellow;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+.card p{
+    font-size: 15px;
+    color: rgb(255, 255, 255,0.8);
+    text-align: center;
+    margin: 1rem 0;
+}
+.card  button{
+    background-color: #333333;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    font-size:16px;
+    border-radius: 8px;
+   margin: 0.5rem;
+}
